@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.tabs.TabLayout
+       android:layout_width="match_parent"
+       android:layout_height="54dp"
+       app:tabMode="scrollable"
+       app:tabIndicatorColor="@color/design_default_color_primary_dark"
+       app:tabSelectedTextColor="@color/colorAccent"
+       app:tabTextColor="@color/colorPrimaryDark"
+       app:tabTextAppearance="@style/TabTextAppearance"
+       >
+
+      <com.google.android.material.tabs.TabItem
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="CONTACTS"/>
+
+      <com.google.android.material.tabs.TabItem
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MESSAGE"/>
+
+   </com.google.android.material.tabs.TabLayout>
+
+</RelativeLayout>
